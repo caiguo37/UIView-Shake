@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Andrea Mazzini" => "andrea.mazzini@gmail.com" }
   s.source       = { :git => "https://github.com/andreamazz/UIView-Shake.git", :tag => "0.2" }
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '6.1'
   s.source_files = 'UIView-Shake', '*.{h,m}'
   s.requires_arc = true
 end
